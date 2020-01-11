@@ -29,9 +29,4 @@ class PropertyValueSpecification extends Eloquent
 	protected $casts = [
 		'value_required' => 'bool'
 	];
-
-	public function search_action_googles()
-	{
-		return $this->hasMany(\SEO\SchemaOrg\Models\SearchActionGoogle::class, 'query-input');
-	}
 }
