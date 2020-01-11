@@ -177,6 +177,10 @@
             "4fem9": {
                 "x": 1103,
                 "y": 1085
+            },
+            "apt95": {
+                "x": 1857,
+                "y": 1007
             }
         }
     },
@@ -409,6 +413,13 @@
             "id": "4fem9",
             "name": "contact_point",
             "color": "table-header-green",
+            "softDelete": false,
+            "timeStamp": true
+        },
+        {
+            "id": "apt95",
+            "name": "property_value_specification",
+            "color": "table-header-blue",
             "softDelete": false,
             "timeStamp": true
         }
@@ -3358,6 +3369,77 @@
                 "id": "puwksb",
                 "name": "owner_type",
                 "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            }
+        ],
+        "apt95": [
+            {
+                "id": "3wkt89",
+                "name": "id",
+                "type": "bigInteger",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": true,
+                "nullable": false,
+                "unique": true,
+                "index": true,
+                "unsigned": true,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "3b9u7",
+                "name": "value_name",
+                "type": "string",
+                "length": "",
+                "defValue": "",
+                "comment": "",
+                "autoInc": false,
+                "nullable": false,
+                "unique": false,
+                "index": false,
+                "unsigned": false,
+                "foreignKey": {
+                    "references": {
+                        "id": "",
+                        "name": ""
+                    },
+                    "on": {
+                        "id": "",
+                        "name": ""
+                    }
+                }
+            },
+            {
+                "id": "vvrq5f",
+                "name": "value_required",
+                "type": "boolean",
                 "length": "",
                 "defValue": "",
                 "comment": "",
