@@ -1,6 +1,6 @@
 # Laravel SEO Schema.org
 
-Decorate your Models with SEO Slug.
+Laravel SEO Schema.org package.
 
 ## Requirements
 
