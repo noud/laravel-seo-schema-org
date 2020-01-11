@@ -1,0 +1,34 @@
+{
+    "name": "noud/laravel-seo-schema-org",
+    "require": {
+        "php": ">=7.2.0",
+        "spatie/schema-org": "^2.3"
+    },
+    "description": "Laravel SEO Schema.org",
+    "type": "library",
+    "require-dev": {
+        "noud/schema": "dev-master",
+        "noud/schema-builder": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noud de Brouwer",
+            "email": "noud4@home.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "SEO\\SchemaOrg\\": "src/app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SEO\\SchemaOrg\\Providers\\SchemaOrgServiceProvider"
+            ]
+        }
+    }
+}
